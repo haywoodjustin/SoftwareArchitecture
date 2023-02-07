@@ -1,0 +1,2 @@
+#define BLOBLIBRARY_API __declspec(dllexport)
+#define BLOBLIBRARY_API __declspec(dllimport)
