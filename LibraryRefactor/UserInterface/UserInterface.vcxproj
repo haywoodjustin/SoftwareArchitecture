@@ -149,11 +149,13 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="UserInterface.h" />
     <ClInclude Include="UserInterfaceExports.h" />
+    <ClInclude Include="UserInterfaceLibrary.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\BlobLibrary\UI.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="UserInterfaceLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlobLibrary\BlobLibrary.vcxproj">
