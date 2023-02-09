@@ -135,6 +135,9 @@
     <ProjectReference Include="..\BlobLibrary\BlobLibrary.vcxproj">
       <Project>{bac9cc7d-0378-4c6d-92f2-45a96f59d7d4}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\UserInterface\UserInterface.vcxproj">
+      <Project>{4cb8e06b-e3db-41d1-95a2-724c43b6ca70}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

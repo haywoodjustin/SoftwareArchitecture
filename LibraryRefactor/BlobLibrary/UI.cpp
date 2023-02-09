@@ -1,4 +1,4 @@
-
+/*
 #include "UI.h"
 
 
@@ -22,4 +22,4 @@ void UI::StartGUILoop()
 	delete m_application1;
 	delete m_application2;
 
-}
+} */ 

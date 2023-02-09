@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bac9cc7d-0378-4c6d-92f2-45a96f59d7d4}</ProjectGuid>
-    <RootNamespace>BlobLibrary</RootNamespace>
+    <ProjectGuid>{3b511d2b-ca49-4b54-aa62-fa3ce6777518}</ProjectGuid>
+    <RootNamespace>UiLibrary</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>UiLibrary</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -71,22 +72,22 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <TargetName>BlobLibrary</TargetName>
+    <TargetName>UiLibrary</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>BlobLibrary</TargetName>
+    <TargetName>UiLibrary</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <TargetName>BlobLibrary</TargetName>
+    <TargetName>UiLibrary</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <TargetName>BlobLibrary</TargetName>
+    <TargetName>UiLibrary</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;BLOBLIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;UILIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -101,7 +102,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;BLOBLIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;UILIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -116,9 +117,8 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;BLOBLIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;UILIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -132,9 +132,8 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;BLOBLIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;UILIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>.</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -148,23 +147,20 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BI.h" />
-    <ClInclude Include="BlobExports.h" />
-    <ClInclude Include="BlobLibrary.h" />
-    <ClInclude Include="Core.h" />
+    <ClInclude Include="..\BlobLibrary\UI.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="MyApplication1.h" />
-    <ClInclude Include="MyApplication2.h" />
+    <ClInclude Include="UiLibraryExports.h" />
+    <ClInclude Include="UiLibrary.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BI.cpp" />
-    <ClCompile Include="BlobLibrary.cpp" />
-    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="..\BlobLibrary\UI.cpp" />
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="MyApplication1.cpp" />
-    <ClCompile Include="MyApplication2.cpp" />
+    <ClCompile Include="UiLibrary.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlobLibrary\BlobLibrary.vcxproj">
+      <Project>{bac9cc7d-0378-4c6d-92f2-45a96f59d7d4}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,7 +1,7 @@
 #pragma once
 
 
-#include <LinkedList.h>
+#include "LinkedList.h"
 
 /// <summary>
 /// This class does something entirely different thatn MyAppplication1

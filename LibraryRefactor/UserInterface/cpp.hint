@@ -1,0 +1,2 @@
+#define USERINTERFACE_API __declspec(dllexport)
+#define USERINTERFACE_API __declspec(dllimport)
