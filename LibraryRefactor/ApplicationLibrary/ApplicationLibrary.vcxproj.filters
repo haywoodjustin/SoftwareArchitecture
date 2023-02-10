@@ -21,24 +21,30 @@
     <ClInclude Include="framework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="UserInterfaceLibrary.h">
+    <ClInclude Include="ApplicationLibrary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="UserInterfaceLibraryExports.h">
+    <ClInclude Include="AppExports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\BlobLibrary\UI.h">
+    <ClInclude Include="..\BlobLibrary\MyApplication1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BlobLibrary\MyApplication2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UserInterfaceLibrary.cpp">
+    <ClCompile Include="ApplicationLibrary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\BlobLibrary\UI.cpp">
+    <ClCompile Include="..\BlobLibrary\MyApplication1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BlobLibrary\MyApplication2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
