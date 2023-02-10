@@ -132,8 +132,8 @@
     <ClCompile Include="LibraryRefactor.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BlobLibrary\BlobLibrary.vcxproj">
-      <Project>{bac9cc7d-0378-4c6d-92f2-45a96f59d7d4}</Project>
+    <ProjectReference Include="..\UserInterfaceLibrary\UserInterfaceLibrary.vcxproj">
+      <Project>{b0502fab-f3b8-47be-a87b-1205137eb76b}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

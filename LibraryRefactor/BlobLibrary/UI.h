@@ -1,14 +1,12 @@
 #pragma once
-#include "BlobExports.h"
-
-
-#include <MyApplication1.h>
-#include <MyApplication2.h>
+#include "../UserInterfaceLibrary/UserInterfaceLibraryExports.h"
+#include "MyApplication1.h"
+#include "MyApplication2.h"
 
 /// <summary>
 /// This class has the UI functionality for our Application
 /// </summary>
-class BLOBLIBRARY_API UI
+class USERINTERFACELIBRARY_API UI
 {
 public:
 

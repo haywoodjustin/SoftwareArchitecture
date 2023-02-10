@@ -1,7 +1,7 @@
 #include "MyApplication2.h"
 
-#include <BI.h>
-#include <MyApplication2.h>
+#include "../BlobLibrary/BI.h"
+
 
 
 MyApplication2::MyApplication2() : m_pointerBasedLinkedList(nullptr)

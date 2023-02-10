@@ -154,9 +154,6 @@
     <ClInclude Include="Core.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="MyApplication1.h" />
-    <ClInclude Include="MyApplication2.h" />
-    <ClInclude Include="UI.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BI.cpp" />
@@ -164,9 +161,6 @@
     <ClCompile Include="Core.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="MyApplication1.cpp" />
-    <ClCompile Include="MyApplication2.cpp" />
-    <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
