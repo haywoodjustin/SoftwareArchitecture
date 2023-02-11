@@ -12,3 +12,6 @@ public:
 extern BLOBLIBRARY_API int nCore;
 
 BLOBLIBRARY_API int fnCore(void);
+// extern
+
+// extern BUSINESSINTELLEGENCE_API BusinessIntelligence* GetBusinessIntelligence();

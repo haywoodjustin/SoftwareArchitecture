@@ -1,6 +1,6 @@
 
-#include <BI.h>
-#include <Core.h>
+#include "../BlobLibrary/BI.h"
+#include "../Core/Core.h"
 #include <string>
 #include <iostream>
 

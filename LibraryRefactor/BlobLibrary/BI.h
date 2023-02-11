@@ -1,11 +1,11 @@
 #pragma once
-#include "BlobExports.h"
+#include "../BusinessIntellegence/BusinessExports.h"
 
 #include <string>
 /// <summary>
 /// Utility class for our Business Intelligence module
 /// </summary>
-class BLOBLIBRARY_API BusinessIntelligence
+class BUSINESSINTELLEGENCE_API BusinessIntelligence
 {
 public:
 	
@@ -17,4 +17,4 @@ private:
 	BusinessIntelligence();
 };
 
-extern BLOBLIBRARY_API BusinessIntelligence* GetBusinessIntelligence();
+extern BUSINESSINTELLEGENCE_API BusinessIntelligence* GetBusinessIntelligence();
