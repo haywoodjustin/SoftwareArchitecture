@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{98e9af85-a85e-4bba-80ba-57ee1b14b5d9}</ProjectGuid>
-    <RootNamespace>ApplicationLibrary</RootNamespace>
+    <ProjectGuid>{b0502fab-f3b8-47be-a87b-1205137eb76b}</ProjectGuid>
+    <RootNamespace>UserInterfaceLibrary</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Application</ProjectName>
+    <ProjectName>UserInterface</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -72,22 +72,22 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <TargetName>ApplicationLibrary</TargetName>
+    <TargetName>UserInterfaceLibrary</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>ApplicationLibrary</TargetName>
+    <TargetName>UserInterfaceLibrary</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <TargetName>ApplicationLibrary</TargetName>
+    <TargetName>UserInterfaceLibrary</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <TargetName>ApplicationLibrary</TargetName>
+    <TargetName>UserInterfaceLibrary</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;APPLICATIONLIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;USERINTERFACELIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -102,7 +102,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;APPLICATIONLIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USERINTERFACELIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -117,13 +117,15 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;APPLICATIONLIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;USERINTERFACELIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -132,7 +134,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;APPLICATIONLIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;USERINTERFACELIBRARY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -147,20 +149,19 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AppExports.h" />
-    <ClInclude Include="ApplicationLibrary.h" />
+    <ClInclude Include="..\BlobLibrary\UI.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="UserInterfaceLibrary.h" />
+    <ClInclude Include="UserInterfaceLibraryExports.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ApplicationLibrary.cpp" />
+    <ClCompile Include="..\BlobLibrary\UI.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="UserInterfaceLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessIntellegence\BusinessIntellegence.vcxproj">
-      <Project>{f5cd4c6d-e233-4a3b-a009-2a62eed7912d}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Utilities\Utilities.vcxproj">
-      <Project>{a9076fae-e003-4277-96ff-134cd21f2b94}</Project>
+    <ProjectReference Include="..\ApplicationLibrary\ApplicationLibrary.vcxproj">
+      <Project>{98e9af85-a85e-4bba-80ba-57ee1b14b5d9}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
