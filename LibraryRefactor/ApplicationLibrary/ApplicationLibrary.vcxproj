@@ -162,6 +162,9 @@
     <ProjectReference Include="..\BlobLibrary\BlobLibrary.vcxproj">
       <Project>{bac9cc7d-0378-4c6d-92f2-45a96f59d7d4}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\BusinessIntellegence\BusinessIntellegence.vcxproj">
+      <Project>{f5cd4c6d-e233-4a3b-a009-2a62eed7912d}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

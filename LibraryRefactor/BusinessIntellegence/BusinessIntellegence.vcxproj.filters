@@ -21,24 +21,24 @@
     <ClInclude Include="framework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BlobLibrary.h">
+    <ClInclude Include="BusinessIntellegence.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LinkedList.h">
+    <ClInclude Include="BusinessExports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BlobExports.h">
+    <ClInclude Include="..\BlobLibrary\BI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BlobLibrary.cpp">
+    <ClCompile Include="BusinessIntellegence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LinkedList.cpp">
+    <ClCompile Include="..\BlobLibrary\BI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
