@@ -150,13 +150,11 @@
   <ItemGroup>
     <ClInclude Include="BlobExports.h" />
     <ClInclude Include="BlobLibrary.h" />
-    <ClInclude Include="Core.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="LinkedList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BlobLibrary.cpp" />
-    <ClCompile Include="Core.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="LinkedList.cpp" />
   </ItemGroup>
