@@ -151,17 +151,10 @@
     <ClInclude Include="BlobExports.h" />
     <ClInclude Include="BlobLibrary.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="LinkedList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BlobLibrary.cpp" />
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="LinkedList.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessIntellegence\BusinessIntellegence.vcxproj">
-      <Project>{f5cd4c6d-e233-4a3b-a009-2a62eed7912d}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

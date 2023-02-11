@@ -24,6 +24,7 @@
     <ProjectGuid>{b0502fab-f3b8-47be-a87b-1205137eb76b}</ProjectGuid>
     <RootNamespace>UserInterfaceLibrary</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>UserInterface</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

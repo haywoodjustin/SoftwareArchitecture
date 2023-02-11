@@ -1,6 +1,6 @@
 #pragma once
 
-#include "BlobExports.h"
+#include "../Utilities/UtilitiesExports.h"
 
 #include <string>
 #include <memory>
@@ -8,7 +8,7 @@
 
 
 // This class is exported from the LinkedList.dll
-class BLOBLIBRARY_API ILinkedList {
+class UTILITIES_API ILinkedList {
 public:
 
 	ILinkedList();
@@ -30,7 +30,7 @@ protected:
 
 };
 
-class BLOBLIBRARY_API Node
+class UTILITIES_API Node
 {
 private:
 	int m_value;
@@ -49,7 +49,7 @@ public:
 };
 
 
-class BLOBLIBRARY_API ArrayBasedLinkedList : public ILinkedList
+class UTILITIES_API ArrayBasedLinkedList : public ILinkedList
 {
 public:
 	ArrayBasedLinkedList();
@@ -68,7 +68,7 @@ private:
 	int m_values[10];
 };
 
-class BLOBLIBRARY_API PointerBasedLinkedList : public ILinkedList
+class UTILITIES_API PointerBasedLinkedList : public ILinkedList
 {
 public:
 	PointerBasedLinkedList();
