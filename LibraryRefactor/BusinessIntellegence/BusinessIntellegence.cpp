@@ -1,6 +1,6 @@
 // BusinessIntellegence.cpp : Defines the exported functions for the DLL.
 //
-
+/*
 #include "framework.h"
 #include "BusinessIntellegence.h"
 
@@ -18,4 +18,4 @@ BUSINESSINTELLEGENCE_API int fnBusinessIntellegence(void)
 CBusinessIntellegence::CBusinessIntellegence()
 {
     return;
-}
+} */ 

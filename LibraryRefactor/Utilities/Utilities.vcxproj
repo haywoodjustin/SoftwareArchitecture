@@ -148,13 +148,11 @@
   <ItemGroup>
     <ClInclude Include="..\BlobLibrary\LinkedList.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="Utilities.h" />
     <ClInclude Include="UtilitiesExports.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\BlobLibrary\LinkedList.cpp" />
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessIntellegence\BusinessIntellegence.vcxproj">

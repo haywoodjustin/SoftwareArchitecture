@@ -4,7 +4,7 @@
 // that uses this DLL. This way any other project whose source files include this file see
 // USERINTERFACELIBRARY_API functions as being imported from a DLL, whereas this DLL sees symbols
 // defined with this macro as being exported.
-#include "UserInterfaceLibraryExports.h"
+/*#include "UserInterfaceLibraryExports.h"
 
 // This class is exported from the dll
 class USERINTERFACELIBRARY_API CUserInterfaceLibrary {
@@ -15,4 +15,4 @@ public:
 
 extern USERINTERFACELIBRARY_API int nUserInterfaceLibrary;
 
-USERINTERFACELIBRARY_API int fnUserInterfaceLibrary(void);
+USERINTERFACELIBRARY_API int fnUserInterfaceLibrary(void); */ 

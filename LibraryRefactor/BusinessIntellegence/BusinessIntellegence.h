@@ -4,7 +4,7 @@
 // that uses this DLL. This way any other project whose source files include this file see
 // BUSINESSINTELLEGENCE_API functions as being imported from a DLL, whereas this DLL sees symbols
 // defined with this macro as being exported.
-#include "BusinessExports.h"
+/*#include "BusinessExports.h"
 
 // This class is exported from the dll
 class BUSINESSINTELLEGENCE_API CBusinessIntellegence {
@@ -15,4 +15,4 @@ public:
 
 extern BUSINESSINTELLEGENCE_API int nBusinessIntellegence;
 
-BUSINESSINTELLEGENCE_API int fnBusinessIntellegence(void);
+BUSINESSINTELLEGENCE_API int fnBusinessIntellegence(void); */ 
