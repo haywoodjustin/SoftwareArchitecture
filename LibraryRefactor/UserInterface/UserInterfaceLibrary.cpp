@@ -1,7 +1,7 @@
 // UserInterfaceLibrary.cpp : Defines the exported functions for the DLL.
 //
 
-/* #include "framework.h"
+#include "framework.h"
 #include "UserInterfaceLibrary.h"
 
 
@@ -19,4 +19,3 @@ CUserInterfaceLibrary::CUserInterfaceLibrary()
 {
     return;
 }
-*/ 

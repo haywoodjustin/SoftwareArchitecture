@@ -148,12 +148,10 @@
   <ItemGroup>
     <ClInclude Include="..\BlobLibrary\BI.h" />
     <ClInclude Include="BusinessExports.h" />
-    <ClInclude Include="BusinessIntellegence.h" />
     <ClInclude Include="framework.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\BlobLibrary\BI.cpp" />
-    <ClCompile Include="BusinessIntellegence.cpp" />
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>

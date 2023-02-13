@@ -147,15 +147,11 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\BlobLibrary\MyApplication1.h" />
-    <ClInclude Include="..\BlobLibrary\MyApplication2.h" />
     <ClInclude Include="AppExports.h" />
     <ClInclude Include="ApplicationLibrary.h" />
     <ClInclude Include="framework.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\BlobLibrary\MyApplication1.cpp" />
-    <ClCompile Include="..\BlobLibrary\MyApplication2.cpp" />
     <ClCompile Include="ApplicationLibrary.cpp" />
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>

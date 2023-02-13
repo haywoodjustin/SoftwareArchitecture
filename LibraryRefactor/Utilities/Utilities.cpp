@@ -1,7 +1,7 @@
 // Utilities.cpp : Defines the exported functions for the DLL.
 //
 
-#include "framework.h"
+/*#include "framework.h"
 #include "Utilities.h"
 
 
@@ -18,4 +18,4 @@ UTILITIES_API int fnUtilities(void)
 CUtilities::CUtilities()
 {
     return;
-}
+} */ 

@@ -5,7 +5,7 @@
 // UTILITIES_API functions as being imported from a DLL, whereas this DLL sees symbols
 // defined with this macro as being exported.
 
-#include "UtilitiesExports.h"
+/* #include "UtilitiesExports.h"
 
 // This class is exported from the dll
 class UTILITIES_API CUtilities {
@@ -16,4 +16,4 @@ public:
 
 extern UTILITIES_API int nUtilities;
 
-UTILITIES_API int fnUtilities(void);
+UTILITIES_API int fnUtilities(void); */ 

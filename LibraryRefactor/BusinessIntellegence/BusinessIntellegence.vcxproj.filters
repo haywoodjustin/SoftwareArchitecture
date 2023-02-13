@@ -21,9 +21,6 @@
     <ClInclude Include="framework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BusinessIntellegence.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="BusinessExports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -32,9 +29,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BusinessIntellegence.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
