@@ -24,7 +24,7 @@
     <ClInclude Include="Application2Exports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\BlobLibrary\MyApplication2.h">
+    <ClInclude Include="MyApplication2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\BlobLibrary\MyApplication2.cpp">
+    <ClCompile Include="MyApplication2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
