@@ -1,5 +1,5 @@
 #pragma once
-#include "../UserInterface/UserInterfaceLibraryExports.h"
+#include "UserInterfaceLibraryExports.h"
 #include "MyApplication1.h"
 #include "MyApplication2.h"
 
