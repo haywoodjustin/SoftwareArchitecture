@@ -1,6 +1,6 @@
 #include "MyApplication2.h"
 
-#include "../BlobLibrary/BI.h"
+#include "../BusinessIntellegence/BI.h"
 
 
 

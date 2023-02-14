@@ -1,6 +1,6 @@
 #include "MyApplication1.h"
 
-#include "../BlobLibrary/BI.h"
+#include "../BusinessIntellegence/BI.h"
 
 MyApplication1::MyApplication1() : m_arrayBasedLinkedList(nullptr)
 {

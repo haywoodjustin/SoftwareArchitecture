@@ -1,5 +1,5 @@
 
-#include "../BlobLibrary/BI.h"
+#include "BI.h"
 #include "../Core/Core.h"
 #include <string>
 #include <iostream>

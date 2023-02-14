@@ -146,12 +146,12 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\BlobLibrary\BI.h" />
+    <ClInclude Include="BI.h" />
     <ClInclude Include="BusinessExports.h" />
     <ClInclude Include="framework.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\BlobLibrary\BI.cpp" />
+    <ClCompile Include="BI.cpp" />
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
