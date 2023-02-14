@@ -149,13 +149,13 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\BlobLibrary\UI.h" />
+    <ClInclude Include="..\UserInterface\UI.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="UserInterfaceLibrary.h" />
     <ClInclude Include="UserInterfaceLibraryExports.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\BlobLibrary\UI.cpp" />
+    <ClCompile Include="..\UserInterface\UI.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="UserInterfaceLibrary.cpp" />
   </ItemGroup>
