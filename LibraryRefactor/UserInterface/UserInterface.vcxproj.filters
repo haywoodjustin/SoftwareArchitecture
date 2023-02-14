@@ -27,7 +27,7 @@
     <ClInclude Include="UserInterfaceLibraryExports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\BlobLibrary\UI.h">
+    <ClInclude Include="..\UserInterface\UI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,7 +38,7 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\BlobLibrary\UI.cpp">
+    <ClCompile Include="..\UserInterface\UI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,13 +1,13 @@
 #pragma once
 
-
-#include "../BlobLibrary/LinkedList.h"
+#include "Application1Exports.h"
+#include "../Utilities/LinkedList.h"
 
 
 /// <summary>
 /// This class does something entirely different thatn MyAppplication2
 /// </summary>
-class MyApplication1
+class APPLICATION1_API MyApplication1
 {
 public:
 	MyApplication1();

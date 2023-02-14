@@ -146,13 +146,13 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\BlobLibrary\MyApplication2.h" />
     <ClInclude Include="Application2Exports.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="MyApplication2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\BlobLibrary\MyApplication2.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="MyApplication2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessIntellegence\BusinessIntellegence.vcxproj">

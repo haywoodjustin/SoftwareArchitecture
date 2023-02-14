@@ -24,7 +24,7 @@
     <ClInclude Include="UtilitiesExports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\BlobLibrary\LinkedList.h">
+    <ClInclude Include="LinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\BlobLibrary\LinkedList.cpp">
+    <ClCompile Include="LinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

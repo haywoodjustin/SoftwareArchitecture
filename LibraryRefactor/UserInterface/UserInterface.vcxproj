@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b0502fab-f3b8-47be-a87b-1205137eb76b}</ProjectGuid>
+    <ProjectGuid>{E86879D9-CF67-4253-B331-15EFC88A225C}</ProjectGuid>
     <RootNamespace>UserInterfaceLibrary</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>UserInterface</ProjectName>
@@ -149,19 +149,22 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\BlobLibrary\UI.h" />
+    <ClInclude Include="..\UserInterface\UI.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="UserInterfaceLibrary.h" />
     <ClInclude Include="UserInterfaceLibraryExports.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\BlobLibrary\UI.cpp" />
+    <ClCompile Include="..\UserInterface\UI.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="UserInterfaceLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ApplicationLibrary\ApplicationLibrary.vcxproj">
-      <Project>{98e9af85-a85e-4bba-80ba-57ee1b14b5d9}</Project>
+    <ProjectReference Include="..\Application1\Application1.vcxproj">
+      <Project>{8b6b7058-1d8d-4b6f-b743-0c331c875aae}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Application2\Application2.vcxproj">
+      <Project>{96280fe3-88fa-44d3-95fe-f38e5c877b16}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
