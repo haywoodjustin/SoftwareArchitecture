@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Application1/Application1Exports.h"
+#include "Application1Exports.h"
 #include "../BlobLibrary/LinkedList.h"
 
 

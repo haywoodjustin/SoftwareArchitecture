@@ -149,13 +149,13 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\UserInterface\framework.h" />
     <ClInclude Include="..\UserInterface\UI.h" />
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="UserInterfaceLibraryExports.h" />
+    <ClInclude Include="..\UserInterface\UserInterfaceLibraryExports.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\UserInterface\dllmain.cpp" />
     <ClCompile Include="..\UserInterface\UI.cpp" />
-    <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application1\Application1.vcxproj">
