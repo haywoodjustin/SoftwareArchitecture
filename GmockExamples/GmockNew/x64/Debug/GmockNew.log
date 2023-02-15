@@ -1,11 +1,2 @@
-﻿  Cat.cpp
-  CatGame.cpp
-  Game.cpp
-  RealObject.cpp
-  test.cpp
-  Turtle.cpp
-  Generating Code...
-  gtest-all.cc
-  gmock-all.cc
-  Generating Code...
-  GmockNew.vcxproj -> C:\Users\haywo\Git\SoftwareArchitecture\GmockExamples\x64\Debug\GmockNew.exe
+﻿  test.cpp
+  GmockNew.vcxproj -> C:\GitRepos\SoftwareArchitecture\GmockExamples\x64\Debug\GmockNew.exe
