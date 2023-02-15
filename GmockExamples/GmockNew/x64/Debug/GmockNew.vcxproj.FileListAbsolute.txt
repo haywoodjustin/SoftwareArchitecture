@@ -1,2 +1,1 @@
 C:\Users\haywo\Git\SoftwareArchitecture\GmockExamples\GmockNew\x64\Debug\GmockNew.vcxproj.CopyComplete
-C:\GitRepos\SoftwareArchitecture\GmockExamples\GmockNew\x64\Debug\GmockNew.vcxproj.CopyComplete

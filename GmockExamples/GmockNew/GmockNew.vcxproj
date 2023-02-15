@@ -33,31 +33,17 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClCompile Include="Cat.cpp" />
-    <ClCompile Include="CatGame.cpp" />
-    <ClCompile Include="Game.cpp" />
     <ClCompile Include="OrderManager.cpp" />
-    <ClCompile Include="RealObject.cpp" />
     <ClCompile Include="Order.cpp" />
     <ClCompile Include="test.cpp" />
-    <ClCompile Include="Turtle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cat.h" />
-    <ClInclude Include="CatGame.h" />
-    <ClInclude Include="Game.h" />
     <ClInclude Include="MockOrder.h" />
-    <ClInclude Include="MockCat.h" />
-    <ClInclude Include="MockRealObject.h" />
-    <ClInclude Include="MockTurtle.h" />
     <ClInclude Include="Order.h" />
     <ClInclude Include="OrderManager.h" />
-    <ClInclude Include="painter.h" />
-    <ClInclude Include="RealObject.h" />
-    <ClInclude Include="Turtle.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
