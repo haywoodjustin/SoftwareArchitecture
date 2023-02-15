@@ -14,11 +14,16 @@ public:
     MOCK_METHOD(void, SomeMethod, ());
 };
 
-TEST(OrderManagerTest, TestItemOutOfStock)
+/// <summary>
+/// Test #1, tests if an order gets submitted correctly
+/// </summary>
+/// <param name=""></param>
+/// <param name=""></param>
+TEST(OrderManagerTest, TestOrderSubmition)
 {
     MockOrder order;
 
-    EXPECT_CALL(order, getItemNumber).Times(1).WillOnce(Return(3000));
+    EXPECT_CALL(order, getItemNumber).Times(1);
     EXPECT_CALL(order, setStatus).Times(1);
 
     OrderManager om(&order);
@@ -26,8 +31,12 @@ TEST(OrderManagerTest, TestItemOutOfStock)
     om.submitOrder();
 
 }
-
-TEST(OrderManagerTest, TestOrderCreation)
+/// <summary>
+/// Test #2, tests if customers are created correctly
+/// </summary>
+/// <param name=""></param>
+/// <param name=""></param>
+TEST(OrderManagerTest, TestCustomerCreation)
 {
     MockOrder order;
 
