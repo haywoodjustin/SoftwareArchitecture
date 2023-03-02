@@ -15,7 +15,7 @@
     <ProjectGuid>{E654B7EA-F264-421D-8056-6F3C2CC7D47F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>AppLibrary</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <ProjectName>AppFeatureOps</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

@@ -15,7 +15,7 @@
     <ProjectGuid>{3ED245AB-F27B-4166-8E34-F5F0F355BF0A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Journaling</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

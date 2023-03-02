@@ -15,7 +15,7 @@
     <ProjectGuid>{1155E21A-D324-4653-BB87-68046CDEE6DA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>UILibrary</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
