@@ -1,0 +1,2 @@
+#define APPLICATION2_API __declspec(dllexport)
+#define APPLICATION2_API __declspec(dllimport)
