@@ -1,0 +1,2 @@
+#define APPPARTOPS_API __declspec(dllexport)
+#define APPPARTOPS_API __declspec(dllimport)

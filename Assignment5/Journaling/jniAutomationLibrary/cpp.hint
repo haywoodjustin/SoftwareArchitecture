@@ -1,0 +1,2 @@
+#define JNIAUTOMATIONLIBRARY_API __declspec(dllexport)
+#define JNIAUTOMATIONLIBRARY_API __declspec(dllimport)

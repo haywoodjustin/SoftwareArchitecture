@@ -1,0 +1,2 @@
+#define APPSCORE_API __declspec(dllexport)
+#define APPSCORE_API __declspec(dllimport)

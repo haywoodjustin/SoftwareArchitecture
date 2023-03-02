@@ -1,0 +1,2 @@
+#define JAVAAUTOMATIONBINDING_API __declspec(dllexport)
+#define JAVAAUTOMATIONBINDING_API __declspec(dllimport)

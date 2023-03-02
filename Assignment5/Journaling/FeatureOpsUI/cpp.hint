@@ -1,0 +1,2 @@
+#define FEATUREOPSUI_API __declspec(dllexport)
+#define FEATUREOPSUI_API __declspec(dllimport)

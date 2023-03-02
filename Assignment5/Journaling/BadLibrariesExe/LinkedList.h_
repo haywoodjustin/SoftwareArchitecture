@@ -1,0 +1,118 @@
+#pragma once
+
+// The following ifdef block is the standard way of creating macros which make exporting
+// from a DLL simpler. All files within this DLL are compiled with the CORE_EXPORTS
+// symbol defined on the command line. This symbol should not be defined on any project
+// that uses this DLL. This way any other project whose source files include this file see
+// CORE_API functions as being imported from a DLL, whereas this DLL sees symbols
+// defined with this macro as being exported.
+#ifdef CORE_EXPORTS
+#define CORE_API __declspec(dllexport)
+#else
+#define CORE_API __declspec(dllimport)
+#endif
+
+#include <string>
+#include <iostream>
+
+
+
+extern void CORE_API FreeNodeList(Node* n)
+{
+	if (n->getNext() == nullptr)
+	{
+		delete n;
+	}
+	else
+	{
+		Node* cur = n->getNext();
+		n->setNext(nullptr);
+		delete n;
+		FreeNodeList(cur);
+	}
+}
+
+
+// This class is exported from the LinkedList.dll
+class CORE_API ILinkedList {
+public:
+
+	ILinkedList();
+
+	/** Returns true  if list is empty, otherwise true */
+	virtual bool isEmpty() const = 0;
+	/** Adds a value to the LinkedList.  Return true if able to, otherwise false */
+	virtual bool add(int val) = 0;
+	/** Remove a value to the LinkedList.  Return true if able to, otherwise false.
+	Will only remove one entry if there are multiple entries with the same value */
+	virtual bool remove(int val) = 0;
+	/** Remove  all elements from LinkedList */
+	virtual void clear() = 0;
+
+	virtual std::string toString() const = 0;
+
+protected:
+	int m_count;
+
+};
+
+class CORE_API Node
+{
+private:
+	int m_value;
+	Node* m_next;
+	int pat;
+
+public:
+	Node();
+	Node(int val);
+	Node(int val, Node* nextNode);
+	void setItem(const int& val);
+	void setNext(Node* nextNodePtr);
+	int getItem() const;
+	Node* getNext() const;
+	virtual ~Node();
+
+};
+
+
+class CORE_API ArrayBasedLinkedList : public ILinkedList
+{
+public:
+	ArrayBasedLinkedList();
+	/** Returns true  if list is empty, otherwise true */
+	bool isEmpty() const override;
+	/** Adds a value to the LinkedList.  Return true if able to, otherwise false */
+	bool add(int val) override;
+	/** Remove a value to the LinkedList.  Return true if able to, otherwise false.
+	Will only remove one entry if there are multiple entries with the same value */
+	bool remove(int val) override;
+	/** Remove  all elements from LinkedList */
+	void clear() override;
+	virtual ~ArrayBasedLinkedList();
+	std::string toString() const override;
+private:
+	int m_values[10];
+};
+
+class CORE_API PointerBasedLinkedList : public ILinkedList
+{
+public:
+	PointerBasedLinkedList();
+
+	bool isEmpty() const  override;
+	/** Adds a value to the LinkedList.  Return true if able to, otherwise false */
+	bool add(int val) override;
+	/** Remove a value to the LinkedList.  Return true if able to, otherwise false.
+	Will only remove one entry if there are multiple entries with the same value */
+	bool remove(int val)  override;
+	/** Remove  all elements from LinkedList */
+	void clear()  override;
+	virtual ~PointerBasedLinkedList();
+	std::string toString() const override;
+private:
+	Node* m_head;
+};
+
+
+

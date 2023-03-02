@@ -1,0 +1,2 @@
+#define UILIBRARY_API __declspec(dllexport)
+#define UILIBRARY_API __declspec(dllimport)

@@ -1,0 +1,2 @@
+#define JOURNALING_API __declspec(dllexport)
+#define JOURNALING_API __declspec(dllimport)

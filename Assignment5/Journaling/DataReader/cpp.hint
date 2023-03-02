@@ -1,0 +1,2 @@
+#define DATAREADER_API __declspec(dllexport)
+#define DATAREADER_API __declspec(dllimport)

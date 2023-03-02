@@ -1,0 +1,2 @@
+#define JAVALOADER_API __declspec(dllexport)
+#define JAVALOADER_API __declspec(dllimport)

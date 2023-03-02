@@ -1,0 +1,1 @@
+javac --class-path C:\Users\polek\source\repos\SoftwareArchitectureCLassApplication\JavaAutomationBinding SampleApp.java

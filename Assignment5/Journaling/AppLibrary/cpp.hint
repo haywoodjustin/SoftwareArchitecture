@@ -1,0 +1,2 @@
+#define APPLIBRARY_API __declspec(dllexport)
+#define APPLIBRARY_API __declspec(dllimport)
