@@ -1,0 +1,2 @@
+#define PATRICKLOCAL_API __declspec(dllexport)
+#define PATRICKLOCAL_API __declspec(dllimport)
