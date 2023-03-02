@@ -15,7 +15,7 @@
     <ProjectGuid>{A5E51A70-6311-444E-9A50-9595661C5C2D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>BadLibrariesExe</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <ProjectName>MainExe</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
