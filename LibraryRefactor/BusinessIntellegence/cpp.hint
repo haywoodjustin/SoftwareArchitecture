@@ -1,2 +1,0 @@
-#define BUSINESSINTELLEGENCE_API __declspec(dllexport)
-#define BUSINESSINTELLEGENCE_API __declspec(dllimport)
