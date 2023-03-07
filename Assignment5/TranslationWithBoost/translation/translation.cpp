@@ -27,11 +27,11 @@ int main()
     #pragma warning(suppress : 4996)
    /* std::cout << Localize("Hello World") << std::endl;
 
-    std::cout << Localize("Welcome splash screen", "Hello World") << std::endl;
+    std::cout << Localize("Welcome splash screen", "Hello World") << std::endl; */ 
 
-    std::cout << Localize("file", "open") << std::endl;
+    //std::cout << Localize("file", "open") << std::endl;
 
-    std::cout << Localize("internet connection", "open") << std::endl;*/
+    /*std::cout << Localize("internet connection", "open") << std::endl; */
 
     int files = 1;
 
@@ -45,7 +45,6 @@ int main()
 
     /*function1(1);
     function1(4);
-
     function2(1);
     function2(2);
     function2(15);*/

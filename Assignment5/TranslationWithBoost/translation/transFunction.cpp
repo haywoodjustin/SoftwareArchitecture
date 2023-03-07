@@ -9,7 +9,8 @@ using namespace boost::locale;
 
 void testFunction()
 {
-    cout << "This works\n"; 
+    std::cout << Localize("ocean", "current"); 
+    std::cout << Localize("time", "current");
     std::cout << Localize("file", "open") << std::endl;
     std::cout << Localize("internet connection", "open") << std::endl;
 }

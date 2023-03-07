@@ -18,14 +18,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: .\translation\translation.cpp:12
+#: translation.cpp:12
 msgid "You have {1} file in the directory"
 msgid_plural "You have {1} files in the directory"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\translation\translation.cpp:19
+#: translation.cpp:19
 msgid "Option1 {1} file in the directory"
 msgid_plural "Option2 {1} files in the directory"
 msgstr[0] ""
 msgstr[1] ""
+
+#: transfunction.cpp:14
+msgctxt "file"
+msgid "open"
+msgstr "offnen"
+
+#: transfunction.cpp:15
+msgctxt "internet connection"
+msgid "open"
+msgstr "aufbauen"
+
+#: transfunction.cpp:12
+msgctxt "ocean"
+msgid "current"
+msgstr "meeresströmung"
+
+#: transfunction.cpp:13
+msgctxt "time"
+msgid "current"
+msgstr "aktuelle"

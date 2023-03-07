@@ -88,9 +88,9 @@
     <ClCompile Include="translation.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\test.po" />
     <None Include="messages.po" />
     <None Include="packages.config" />
+    <None Include="test.po" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LocalizationUtils\LocalizationUtils.vcxproj">
