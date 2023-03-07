@@ -88,6 +88,7 @@
     <ClCompile Include="translation.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\test.po" />
     <None Include="messages.po" />
     <None Include="packages.config" />
   </ItemGroup>
