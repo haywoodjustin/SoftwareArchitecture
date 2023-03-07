@@ -84,6 +84,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="transFunction.cpp" />
     <ClCompile Include="translation.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +95,9 @@
     <ProjectReference Include="..\LocalizationUtils\LocalizationUtils.vcxproj">
       <Project>{c4276de8-02ff-4b18-ad97-21f3ace3d48a}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="transFunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

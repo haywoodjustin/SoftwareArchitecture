@@ -19,7 +19,7 @@ void LocalizeUtilsInit()
     // Specify location of dictionaries
     genPtr = new generator();
     // TODO you will need to change this value to your local directory of where mo file
-    genPtr->add_messages_path("C:\\Users\\polek\\source\\repos\\boost_starting\\translation");
+    genPtr->add_messages_path("C:\\Users\\haywo\\Git\\SoftwareArchitecture\\Assignment5\\TranslationWithBoost\\translation");
     genPtr->add_messages_domain("messages");
 
     std::locale::global(( *genPtr)("de_DE.UTF - 8"));
