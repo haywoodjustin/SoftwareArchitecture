@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-01 13:06-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: translation.cpp:11
+msgid "You have {1} file in the directory"
+msgid_plural "You have {1} files in the directory"
+msgstr[0] "German You have {1} file in the directory"
+msgstr[1] "German You have {1} files in the directory"
+
+#: translation.cpp:18
+msgid "Option1 {1} file in the directory"
+msgid_plural "Option2 {1} files in the directory"
+msgstr[0] "German Option1 {1} file in the directory"
+msgstr[1] "German Option2 {1} files in the directory"
+
+#: translation.cpp:27
+msgid "Hello World"
+msgstr "Hallo Welt (no context)"
+
+#: translation.cpp:29
+msgctxt "Welcome splash screen"
+msgid "Hello World"
+msgstr "Hallo Welt"
+
+#: translation.cpp:31 translation.cpp:38
+msgctxt "file"
+msgid "open"
+msgstr "offnen"
+
+#: translation.cpp:33 translation.cpp:40
+msgctxt "internet connection"
+msgid "open"
+msgstr "aufbauen"
