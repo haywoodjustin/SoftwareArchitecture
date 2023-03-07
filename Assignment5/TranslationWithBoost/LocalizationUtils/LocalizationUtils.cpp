@@ -20,7 +20,7 @@ void LocalizeUtilsInit()
     genPtr = new generator();
     // TODO you will need to change this value to your local directory of where mo file
     genPtr->add_messages_path("C:\\Users\\haywo\\Git\\SoftwareArchitecture\\Assignment5\\TranslationWithBoost\\translation");
-    genPtr->add_messages_domain("messages");
+    genPtr->add_messages_domain("test");
 
     std::locale::global(( *genPtr)("de_DE.UTF - 8"));
 
