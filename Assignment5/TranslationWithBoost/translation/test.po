@@ -33,17 +33,17 @@ msgstr[1] ""
 #: transfunction.cpp:14
 msgctxt "file"
 msgid "open"
-msgstr "offnen"
+msgstr "offnen 2"
 
 #: transfunction.cpp:15
 msgctxt "internet connection"
 msgid "open"
-msgstr "aufbauen"
+msgstr "aufbauen 2"
 
 #: transfunction.cpp:12
 msgctxt "ocean"
 msgid "current"
-msgstr "meeresströmung"
+msgstr "meeresstromung"
 
 #: transfunction.cpp:13
 msgctxt "time"
