@@ -23,21 +23,15 @@ void RunTests();
 int main(int argc, char** argv)
 {
 	initializeProduct();
-	if (argc == 1)
-	{
-		UI* theUI = new UI();
 
-		theUI->Init();
+	UI* theUI = new UI();
 
-		theUI->StartGUILoop();
+	theUI->Init();
 
-		theUI->ShutDownGUILoop();
-	}
-	else 
-	{
-		//we are in test mode
-		RunTests();
-	}
+	theUI->StartGUILoop();
+
+	theUI->ShutDownGUILoop();
+
 	shutdownProduct();
 
 
