@@ -1,6 +1,8 @@
 #include "JournalCallParamDataString.h"
 #include "JournalingInternal.h"
 #include "JournalFile.h"
+#include <boost/algorithm/string.hpp>
+using boost::replace_all;
 
 using namespace Journal;
 
@@ -21,6 +23,8 @@ void JournalCallParamDataString::Journal()
         //         d:\\dir\\some.prt
         
         std::string jnlString = "\"" + m_value + "\"";
+
+        replace_all(jnlString, "\\", "\\\\");
         GetActiveJournalFile()->WriteToFile(jnlString);
     }
     else if (this->m_paramType == JournalCallParamData::ParameterMetaType::OUTPUT)
