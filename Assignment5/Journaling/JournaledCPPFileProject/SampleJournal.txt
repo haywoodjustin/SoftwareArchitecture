@@ -6,10 +6,10 @@ int main()
 {
     std::cout << "Hello World!\n";
     AutomationAPI::Session* mySession = AutomationAPI::Session::GetSession();
-AutomationAPI::Part * Part1 = mySession->MakePart("d:\workdir\someDir\SomeName.part");
-Part1->MakeWidgetFeature();
+AutomationAPI::Part * Part1 = mySession->MakePart("d:\\workdir\\someDir\\SomeName.part");
+Part1->MakeWidgetFeature(true,10);
 Part1->Save();
-AutomationAPI::Part * Part2 = mySession->OpenPart("C:\Users\polek\Source\Repos\SoftwareArchitectureCLassApplication_delme_Mar-\SampleVersionUp.prt");
+AutomationAPI::Part * Part2 = mySession->OpenPart("C:\\GitRepos\\SoftwareArchitecture\\Assignment5\\Journaling\\SampleVersionUp.prt");
 Part2->Save();
 
 }
