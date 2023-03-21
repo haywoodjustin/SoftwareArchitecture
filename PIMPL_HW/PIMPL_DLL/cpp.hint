@@ -1,0 +1,2 @@
+#define PIMPLDLL_API __declspec(dllexport)
+#define PIMPLDLL_API __declspec(dllimport)
