@@ -4,6 +4,9 @@
 #include <iostream>
 #include "..\PIMPL_DLL\StableClass.h"
 #include "..\PIMPL_DLL\SomeContainedClass1.h"
+#include "..\PIMPL_DLL\SomeContainedClass2.h"
+#include "..\PIMPL_DLL\BaseStableClass.h"
+
 
 int main()
 {
@@ -12,10 +15,9 @@ int main()
 
     StableClass* m_StableClass = new StableClass();
 
-    m_StableClass->Method1(1);
-
+    BaseStableClass * m_BaseStableClass = m_StableClass->GetBaseStableClass(); 
     SomeContainedClass1 * m_SomeContainedClass1 = m_StableClass->GetSomeContainedClass1();
-
+    SomeContainedClass2 * m_SomeContainedClass2 = m_StableClass->GetSomeContainedClass2();
 
 }
 
