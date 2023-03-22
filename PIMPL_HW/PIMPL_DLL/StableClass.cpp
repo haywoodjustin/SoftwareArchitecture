@@ -1,47 +1,36 @@
 // PIMPL_DLL.cpp : Defines the exported functions for the DLL.
 //
 
+#include "BaseStableClass.h"
 #include "framework.h"
 #include "StableClass.h"
 #include "SomeContainedClass1.h"
 #include "SomeContainedClass2.h"
 
 
-class StableImpl {
+class StableImpl : public BaseStableClass {
 public: 
 
-    StableImpl(); 
+    void Method1(int i) override;
+    void Method2(int i) override; // Newly Added
 
-    BaseStableClass* GetBaseStableClass(); 
     SomeContainedClass1* GetSomeContainedClass1();
     SomeContainedClass2* GetSomeContainedClass2();
 
-    BaseStableClass* m_BaseStableClass; 
     SomeContainedClass1* m_SomeContainedClass1;
     SomeContainedClass2* m_SomeContainedClass2; // Newly Added
 };
 
+void StableImpl::Method1(int i)
+{
+}
+
+void StableImpl::Method2(int i)
+{
+}
 
 StableClass::StableClass() {
     m_stableImpl = new StableImpl(); 
-}
-
-StableImpl::StableImpl(void)
-{
-    m_SomeContainedClass1 = new SomeContainedClass1(); 
-    m_SomeContainedClass2 = new SomeContainedClass2();
-}
-
-//BaseStableClass functions
-
-BaseStableClass* ::StableImpl::GetBaseStableClass()
-{
-    return m_BaseStableClass; 
-}
-
-BaseStableClass* ::StableClass::GetBaseStableClass()
-{
-    return m_stableImpl->GetBaseStableClass();
 }
 
 // SomeContainedClass1 functions
@@ -68,3 +57,4 @@ SomeContainedClass2* StableClass::GetSomeContainedClass2()
 {
     return m_stableImpl->GetSomeContainedClass2();
 }
+
