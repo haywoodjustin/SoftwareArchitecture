@@ -1,0 +1,2 @@
+#define WORKBOOKMANIPULATION_API __declspec(dllexport)
+#define WORKBOOKMANIPULATION_API __declspec(dllimport)

@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Session", "Session\Session.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Workbook", "Workbook\Workbook.vcxproj", "{90BD753A-E75A-410A-BDBF-7C9B54D67190}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WorkbookManipulation", "WorkbookManipulation\WorkbookManipulation.vcxproj", "{F11A5F34-2EEE-43B2-B353-C2240C764F90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{90BD753A-E75A-410A-BDBF-7C9B54D67190}.Release|x64.Build.0 = Release|x64
 		{90BD753A-E75A-410A-BDBF-7C9B54D67190}.Release|x86.ActiveCfg = Release|Win32
 		{90BD753A-E75A-410A-BDBF-7C9B54D67190}.Release|x86.Build.0 = Release|Win32
+		{F11A5F34-2EEE-43B2-B353-C2240C764F90}.Debug|x64.ActiveCfg = Debug|x64
+		{F11A5F34-2EEE-43B2-B353-C2240C764F90}.Debug|x64.Build.0 = Debug|x64
+		{F11A5F34-2EEE-43B2-B353-C2240C764F90}.Debug|x86.ActiveCfg = Debug|Win32
+		{F11A5F34-2EEE-43B2-B353-C2240C764F90}.Debug|x86.Build.0 = Debug|Win32
+		{F11A5F34-2EEE-43B2-B353-C2240C764F90}.Release|x64.ActiveCfg = Release|x64
+		{F11A5F34-2EEE-43B2-B353-C2240C764F90}.Release|x64.Build.0 = Release|x64
+		{F11A5F34-2EEE-43B2-B353-C2240C764F90}.Release|x86.ActiveCfg = Release|Win32
+		{F11A5F34-2EEE-43B2-B353-C2240C764F90}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
