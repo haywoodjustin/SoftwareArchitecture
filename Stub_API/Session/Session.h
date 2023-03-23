@@ -14,6 +14,7 @@
 class SESSION_API CSession {
 public:
 	CSession(void);
+	CSession GetSession(void); 
 	// TODO: add your methods here.
 };
 

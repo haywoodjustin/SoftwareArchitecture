@@ -19,3 +19,17 @@ CSession::CSession()
 {
     return;
 }
+
+/// <summary>
+/// API to get session object 
+/// </summary>
+/// <returns>
+/// Session object
+/// </returns>
+
+CSession CSession::GetSession()
+{
+    static CSession session; 
+
+    return session; 
+}
